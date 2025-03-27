@@ -1,0 +1,28 @@
+# Changing Default File Permissions (umask)
+
+when we create any file , it default assiggn some permission to file 
+  To make sure all new file created by programm or user , we use umask command 
+
+  Changing umask Temporarily --- umask 027  -- This will apply until the session ends.
+
+ # Setting umask Permanently
+To make the change permanent, add the umask command to shell configuration files:
+
+  #  For a specific user:
+
+        Bash: Edit ~/.bashrc or ~/.bash_profile
+      
+        Zsh: Edit ~/.zshrc
+
+ # For all users:
+
+      Edit /etc/profile, /etc/bash.bashrc, or /etc/login.defs
+
+      ***********************************************************************************************************
+
+  # Troubleshooting File Issues
+
+  CANNOT DELETE , COPY , RENAME OR MOVE FILE
+
+  # REASON 
+  PERMISSION ISSUE , FILE DONT EXIST , 
