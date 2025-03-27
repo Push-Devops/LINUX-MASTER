@@ -175,7 +175,7 @@ Mar 25 18:08:33 mylinux alsactl[803]: alsa-lib main.c:1554:(snd_use_case_mgr_ope
 *******************************************************************************************************
 
 
-# ISSUE : MACHINE GOT THE IP ADDRESS BUT WE CANNOT GO OUTSIDE 
+
 
 
  
